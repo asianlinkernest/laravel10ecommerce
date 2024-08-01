@@ -1,4 +1,8 @@
 @extends('layouts.base')
+@push('styles')
+    <link id="color-link" rel="stylesheet" type="text/css" href="assets/css/demo2.css">
+@endpush
+
 @section('content')
 <section class="breadcrumb-section section-b-space" style="padding-top:20px;padding-bottom:20px;">
         <ul class="circles">
